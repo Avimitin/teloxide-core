@@ -46,6 +46,8 @@ impl_payload! {
             /// [inline keyboard]: https://core.telegram.org/bots#inline-keyboards-and-on-the-fly-updating
             /// [custom reply keyboard]: https://core.telegram.org/bots#keyboards
             pub reply_markup: ReplyMarkup [into],
+            /// Pass True if the photo needs to be covered with a spoiler animation
+            pub has_spoiler: bool,
         }
     }
 }
